@@ -30,9 +30,9 @@ $REMOTE_ADDR_CHK = "http://ieserver.net/ipcheck.shtml";
 $DDNS_UPDATE     = "http://ieserver.net/cgi-bin/dip.cgi";
 
 # ieServer.Netにて取得したアカウント（サブドメイン）情報を記入
-$ACCOUNT         = "chiita";     # アカウント(サブドメイン)名設定
-$DOMAIN          = "dip.jp";     # ドメイン名設定
-$PASSWORD        = "syunta37";     # パスワード設定
+$ACCOUNT         = "";     # アカウント(サブドメイン)名設定
+$DOMAIN          = "";     # ドメイン名設定
+$PASSWORD        = "";     # パスワード設定
 
 if(!open(FILE,"$CURRENT_IP_FILE")) {
     $CURRENT_IP = '0.0.0.0';
